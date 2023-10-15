@@ -1,0 +1,26 @@
+{
+  "name": "smartedu",
+  "version": "1.0.0",
+  "description": "Smartedu Project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Smart",
+    "Education",
+    "Portal"
+  ],
+  "author": "Faruk Kandemir",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
