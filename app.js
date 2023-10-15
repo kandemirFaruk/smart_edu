@@ -1,8 +1,10 @@
 import express from "express";
-import pageRoute from "./routers/pageRoute.js";
 import dotenv from "dotenv"
+import conn from "./db.js"
+import pageRoute from "./routers/pageRoute.js";
 
 dotenv.config()
+conn()
 const app = express();
 
 //Template engine
